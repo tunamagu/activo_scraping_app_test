@@ -1,0 +1,19 @@
+// Place all the styles related to the JobOffers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.joboffers_subtitle{
+  padding: 40px 0;
+  border: 1px dotted gray;
+}
+.joboffer{
+  margin: 15px 0;
+  border-bottom: solid black 1px;
+}
+.text-center{
+  text-align: center;
+}

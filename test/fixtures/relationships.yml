@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job_offer_id: 1
+  owner_id: 1
+
+two:
+  job_offer_id: 1
+  owner_id: 1

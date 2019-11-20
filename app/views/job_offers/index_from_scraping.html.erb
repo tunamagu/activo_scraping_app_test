@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="text-center">JobOffers</h1>
+
+  <div class="joboffers_subtitle text-center">
+    <h2>Job Offers By Scraping</h2>
+  </div>
+
+  <% @job_offers.each do |job_offer| %>
+    <div class="joboffer">
+      <p><%= link_to job_offer.title, job_offer.url, target: "_blank" %></p>
+      <p><small>主催者：</small><%= job_offer.owner_name %></p>
+    </div>
+  <% end %>
+
+</div>
